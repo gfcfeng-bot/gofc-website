@@ -99,7 +99,7 @@ body {
 .hero h1 .accent { color: var(--primary-2); }
 .hero p { font-size: clamp(1rem, 1.5vw, 1.2rem); color: var(--text-dim); margin-bottom: 30px; }
 .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 36px; }
-.hero-actions .btn-full { flex-basis: 100%; max-width: 320px; }
+.hero-actions .btn-full { flex: 1 0 100%; margin: 0 auto; text-align: center; justify-content: center; }
 .hero-trust { display: flex; gap: 22px; flex-wrap: wrap; font-size: 14px; color: var(--text-dim); }
 .hero-trust span { display: flex; align-items: center; gap: 6px; }
 
