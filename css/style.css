@@ -122,6 +122,10 @@ body {
 .btn-line { background: #06C755; color: #ffffff !important; }
 .btn-line:hover { background: #05a848; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(6,199,85,0.4); }
 
+/* Facebook 藍底白字（官方品牌）#1877F2 */
+.btn-facebook { background: #1877F2; color: #ffffff !important; }
+.btn-facebook:hover { background: #0e62d1; color: #ffffff !important; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(24,119,242,0.4); }
+
 /* ---------- Sections ---------- */
 .section { padding: 90px 0; }
 .section-alt { background: var(--bg-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
@@ -185,7 +189,7 @@ body {
   background: var(--card);
   border: 1px solid var(--border);
 }
-.case-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s; }
+.case-item img { width: 100%; height: 100%; object-fit: contain; display: block; transition: transform .4s; }
 .case-item:hover img { transform: scale(1.05); }
 .case-caption {
   position: absolute; left: 0; right: 0; bottom: 0;
