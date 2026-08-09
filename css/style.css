@@ -119,6 +119,8 @@ body {
 .btn-ghost:hover { border-color: var(--primary); color: var(--primary-2); }
 .btn-outline { border-color: var(--primary); color: var(--primary-2); text-align: center; }
 .btn-outline:hover { background: var(--primary); color: #04222e; }
+.btn-line { background: #06C755; color: #ffffff !important; }
+.btn-line:hover { background: #05a848; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(6,199,85,0.4); }
 
 /* ---------- Sections ---------- */
 .section { padding: 90px 0; }
