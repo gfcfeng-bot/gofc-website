@@ -22,17 +22,17 @@
   }
 
   // ---------- 案例資料 ----------
-  // 使用現有官網的實際施工案例照片（gogfc.com.tw /uploads）
+  // 案例照片已本地化至本站 images/cases/ 資料夾
   var cases = [
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062701.jpg', cap: 'BMW G30 大燈光圈修復' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062702.jpg', cap: 'W167 GLE 方向燈修復' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062703.jpg', cap: '現代 Santafe 一體式高亮魚眼' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062704.jpg', cap: '本田 FIT 大燈泛黃翻新' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062705.jpg', cap: 'Toyota Wish 大燈外表翻新' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062706.jpg', cap: '奧迪 TT 大燈泛黃翻新' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062707.jpg', cap: 'Mazda2 外表翻新' },
-    { img: 'https://www.gogfc.com.tw/uploads/use/xiufu2023062708.jpg', cap: 'Benz Smart 大燈翻新' },
-    { img: 'https://www.gogfc.com.tw/uploads/product/202106/ddfx2021062912.jpg', cap: '燈殼受外力撞擊破裂修復' }
+    { img: 'images/cases/xiufu2023062701.jpg', cap: 'BMW G30 大燈光圈修復' },
+    { img: 'images/cases/xiufu2023062702.jpg', cap: 'W167 GLE 方向燈修復' },
+    { img: 'images/cases/xiufu2023062703.jpg', cap: '現代 Santafe 一體式高亮魚眼' },
+    { img: 'images/cases/xiufu2023062704.jpg', cap: '本田 FIT 大燈泛黃翻新' },
+    { img: 'images/cases/xiufu2023062705.jpg', cap: 'Toyota Wish 大燈外表翻新' },
+    { img: 'images/cases/xiufu2023062706.jpg', cap: '奧迪 TT 大燈泛黃翻新' },
+    { img: 'images/cases/xiufu2023062707.jpg', cap: 'Mazda2 外表翻新' },
+    { img: 'images/cases/xiufu2023062708.jpg', cap: 'Benz Smart 大燈翻新' },
+    { img: 'images/cases/ddfx2021062912.jpg', cap: '燈殼受外力撞擊破裂修復' }
   ];
 
   var grid = document.getElementById('caseGrid');
