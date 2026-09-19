@@ -32,12 +32,18 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "AutoRepair",
+  "@type": [
+    "AutoRepair",
+    "LocalBusiness"
+  ],
+  "@id": "https://www.gogfc.net/#business",
   "name": "高豐登光電",
+  "alternateName": "高豐汽車大燈翻新",
   "description": "高雄專業汽車大燈翻新修復、魚眼改裝、LED燈泡升級",
   "url": "https://www.gogfc.net/",
   "telephone": "+886-7-7355958",
   "image": "https://www.gogfc.net/images/logo.jpg",
+  "logo": "https://www.gogfc.net/images/logo.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "美山路19巷8-3號",
@@ -46,19 +52,121 @@
     "postalCode": "833",
     "addressCountry": "TW"
   },
-  "areaServed": "高雄",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E9%9B%84%E5%B8%82%E9%B3%A5%E6%9D%BE%E5%8D%80%E7%BE%8E%E5%B1%B1%E8%B7%AF19%E5%B7%B78-3%E8%99%9F",
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "高雄市"
+  },
   "priceRange": "$",
-  "openingHours": "Mo-Fr 09:00-17:00",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
   "sameAs": [
     "https://www.facebook.com/GFCgood/",
     "https://lin.ee/lwZkmht"
-  ]
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "服務項目",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "大燈翻新修復"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "魚眼改裝"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "LED 燈泡升級"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "線圈重建"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "大燈漏水處理"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "無線遙控驗車模組"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "編程設碼"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "老款改新款"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "低階改高階"
+        }
+      }
+    ]
+  }
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<meta name="theme-color" content="#0d1117">
+<link rel="alternate" hreflang="zh-Hant-TW" href="https://www.gogfc.net/">
+<link rel="alternate" hreflang="x-default" href="https://www.gogfc.net/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.gogfc.net/#website",
+  "url": "https://www.gogfc.net/",
+  "name": "高豐登光電 - 汽車大燈翻新修復",
+  "inLanguage": "zh-Hant-TW",
+  "publisher": {
+    "@id": "https://www.gogfc.net/#business"
+  }
+}
+</script>
 </head>
 <body>
 
