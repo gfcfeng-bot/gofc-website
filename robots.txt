@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 高豐登光電官網 www.gogfc.net
+Sitemap: https://www.gogfc.net/sitemap.xml
